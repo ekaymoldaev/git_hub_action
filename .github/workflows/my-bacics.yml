@@ -15,4 +15,3 @@ jobs:
     steps:
       - name: Print Hello Messages
         run: echo "Hello world from deploy" 
-    
