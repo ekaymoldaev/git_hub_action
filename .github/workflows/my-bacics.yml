@@ -1,0 +1,18 @@
+name: MyGitHub-Actions-Bacics
+on: 
+  push:
+    branches: 
+      -master
+jobs:
+  my_test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello Messages
+        run: echo "Hello world from testing"
+        
+  my_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello Messages
+        run: echo "Hello world from deploy" 
+    
